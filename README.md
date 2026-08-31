@@ -34,6 +34,48 @@ Three regression models are compared:
 - Random Forest Regression
 - Gradient Boosting Regression
 
-The dataset is stored in:
+The dataset is stored in:<a href= "data/house_prices_large_dataset.csv"> Dataset </a>
 
-<a href= "data/house_prices_large_dataset.csv"> Dataset </a>
+
+## Features
+
+| Feature | Description | Type |
+|---|---|---|
+| Area_sqft | Property area in square feet | Numerical |
+| Bedrooms | Number of bedrooms | Numerical |
+| Bathrooms | Number of bathrooms | Numerical |
+| Garage | Garage information | Numerical |
+| Year_Built | Year the property was built | Numerical |
+| Floor | Property floor | Numerical |
+| Distance_to_CityCenter_km | Distance to city centre | Numerical |
+| Location | Property location | Categorical |
+| Property_Type | Type of property | Categorical |
+| Price_USD | Property price | Target |
+
+## Methodology
+
+The project follows the following machine-learning workflow:
+
+1. Load the dataset
+2. Inspect the dataset
+3. Check for missing values
+4. Perform exploratory data analysis
+5. Analyse correlations
+6. Separate features and target
+7. Split the dataset into training and testing sets
+8. Preprocess numerical and categorical features
+9. Train regression models
+10. Evaluate model performance
+11. Compare models
+12. Analyse feature importance
+13. Compare actual and predicted prices
+
+
+## Exploratory Data Analysis
+
+### Price Distribution
+
+The distribution of house prices was examined using a histogram
+to understand the spread and distribution of property prices.
+
+![Price Distribution](images/price_distribution.png)
