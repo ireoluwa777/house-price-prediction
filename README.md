@@ -101,4 +101,4 @@ property area and house price.
 A correlation matrix was used to examine relationships between
 the numerical variables and house price.
 
-![Correlation Matrix](images/correlation_matrix.png)
+<img src="image/correlation.png" alt="Price by Location" width="750" height= "500">
