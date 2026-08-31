@@ -15,6 +15,19 @@ The project covers the complete machine-learning workflow,
 including data exploration, missing-value handling, feature
 preprocessing, model training, evaluation, and prediction.
 
+## Problem Statement
+
+House prices are influenced by several factors, including
+property size, number of bedrooms and bathrooms, location,
+property type, year built, and distance from the city centre.
+
+The objective of this project is to analyse these factors and
+develop machine-learning models that can predict house prices
+based on available property characteristics.
+
+The project also compares different regression algorithms to
+determine which approach provides the most accurate predictions.
+
 Three regression models are compared:
 
 - Linear Regression
