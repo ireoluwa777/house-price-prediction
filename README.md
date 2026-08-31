@@ -89,9 +89,16 @@ property area and house price.
 
 ### Price by Property Type 
  
-<img src="image/house_area vs price.png" alt="Price by Property Type" width="600" height= "400" >
+<img src="image/Property_Type vs Price.png" alt="Price by Property Type" width="600" height= "400" >
 
 
 ### Price by Location
 
-![Price by Location](images/price_by_location.png)
+<img src="image/Location vs Price" alt="Price by Location" width="600" height= "400" >
+
+## Correlation Analysis
+
+A correlation matrix was used to examine relationships between
+the numerical variables and house price.
+
+![Correlation Matrix](images/correlation_matrix.png)
