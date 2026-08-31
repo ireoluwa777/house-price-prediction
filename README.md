@@ -94,7 +94,7 @@ property area and house price.
 
 ### Price by Location
 
-<img src="image/Location vs Price" alt="image/Location vs Price.png" width="600" height= "400" >
+<img src="image/Location vs Price.png vs Price" alt="Price by Location" width="600" height= "400" >
 
 ## Correlation Analysis
 
