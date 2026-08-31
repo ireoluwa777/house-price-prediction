@@ -153,3 +153,13 @@ Measures the proportion of variation in the target variable
 accounted for by the model.
 
 Higher values generally indicate better performance.
+
+## Results 
+ 
+The models were compared using MAE, RMSE, and R². 
+ 
+| Model | MAE | RMSE | R² | 
+|---|---:|---:|---:| 
+| Linear Regression | 246758.858954 | 311931.314886 | 0.908640 | 
+| Random Forest | 179801.108164  | 243363.666010 |  0.944390 | 
+| Gradient Boosting |174486.052578 | 232542.913694  |0.949226  |          
