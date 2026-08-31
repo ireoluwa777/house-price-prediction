@@ -102,3 +102,54 @@ A correlation matrix was used to examine relationships between
 the numerical variables and house price.
 
 <img src="image/correlation.png" alt="Price by Location" width="750" height= "500">
+
+Area_sqft has a strong positive correlation with Price_USD (0.87), indicating that larger properties generally have higher prices.
+
+## Models
+
+Three regression algorithms were trained and compared.
+
+### 1. Linear Regression
+
+Linear Regression was used as a baseline model for predicting
+house prices.
+
+### 2. Random Forest Regression
+
+Random Forest Regression was used to capture nonlinear
+relationships between property characteristics and price.
+
+The model was configured with 200 trees.
+
+### 3. Gradient Boosting Regression
+
+Gradient Boosting Regression was used as another tree-based
+ensemble approach.
+
+The model was configured with 200 estimators, a learning rate
+of 0.05, and a maximum tree depth of 3.
+
+## Evaluation Metrics
+
+The models were evaluated using three metrics:
+
+### Mean Absolute Error (MAE)
+
+Measures the average absolute difference between actual and
+predicted house prices.
+
+Lower values indicate better performance.
+
+### Root Mean Squared Error (RMSE)
+
+Measures the square root of the average squared prediction
+error. RMSE gives greater weight to larger errors.
+
+Lower values indicate better performance.
+
+### R² Score
+
+Measures the proportion of variation in the target variable
+accounted for by the model.
+
+Higher values generally indicate better performance.
