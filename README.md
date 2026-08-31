@@ -78,5 +78,5 @@ The project follows the following machine-learning workflow:
 The distribution of house prices was examined using a histogram
 to understand the spread and distribution of property prices.
 
-<img src="image/Counts by Price.png" alt="Price Distribution">
+<img src="image/Counts by Price.png" alt="Price Distribution" width="600" height= "400" >
 
