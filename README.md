@@ -80,3 +80,9 @@ to understand the spread and distribution of property prices.
 
 <img src="image/Counts by Price.png" alt="Price Distribution" width="600" height= "400" >
 
+### Area vs Price
+
+A scatter plot was used to examine the relationship between
+property area and house price.
+
+<img src="image/Counts by Price.png" alt="Area vs Price" width="600" height= "400" >
