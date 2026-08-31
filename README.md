@@ -180,3 +180,68 @@ The models were compared using MAE, RMSE, and R².
 - **Linear Regression** had the weakest performance (MAE: ~$247K, RMSE: ~$312K, R²: 0.909).
 - Ensemble models outperformed Linear Regression, suggesting that non-linear relationships are important for predicting house prices.
 - Gradient Boosting explains approximately **94.9% of the variation** in house prices.
+
+## Installation & How to Run
+
+### 1. Clone the Repository
+
+Clone the repository to your local machine:
+
+```bash
+git clone https://github.com/ireoluwa777/house-price-prediction.git
+cd house-price-prediction
+```
+
+### 2. Create a Virtual Environment
+
+Create a Python virtual environment:
+
+```bash
+python -m venv venv
+```
+
+Activate the virtual environment.
+
+**Windows:**
+
+```bash
+venv\Scripts\activate
+```
+
+**macOS/Linux:**
+
+```bash
+source venv/bin/activate
+```
+
+### 3. Install Dependencies
+
+Install the required Python libraries:
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Run the Project
+
+Make sure the dataset is located in the `data/` directory.
+
+To run the Python script:
+
+```bash
+python src/house-pricing.py
+```
+
+Alternatively, the analysis can be run through the Jupyter Notebook:
+
+```bash
+jupyter notebook
+```
+
+Then open:
+
+```text
+notebooks/Housing.ipynb
+```
+
+Run the notebook cells sequentially to reproduce the analysis, visualizations, model training, evaluation, and predictions.
