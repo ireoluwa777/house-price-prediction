@@ -36,4 +36,4 @@ Three regression models are compared:
 
 The dataset is stored in:
 
-<a href= "data/house_prices.csv"> Dataset </a>
+<a href= "data/house_prices_large_dataset.csv"> Dataset </a>
