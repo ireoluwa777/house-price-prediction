@@ -86,3 +86,12 @@ A scatter plot was used to examine the relationship between
 property area and house price.
 
 <img src="image/house_area vs price.png" alt="Area vs Price" width="600" height= "400" >
+
+### Price by Property Type 
+ 
+<img src="image/house_area vs price.png" alt="Price by Property Type" width="600" height= "400" >
+
+
+### Price by Location
+
+![Price by Location](images/price_by_location.png)
