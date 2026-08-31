@@ -1,5 +1,5 @@
 # house-price-prediction
-House Price Analysis & Prediction
+<h5>House Price Analysis & Prediction</h5>
 
 This project explores a residential property dataset to identify factors associated with house prices and develops machine-learning regression models for price prediction. The workflow includes exploratory data analysis, missing-value handling, categorical encoding, model training, performance evaluation, feature-importance analysis, and actual-vs-predicted visualization.
 
