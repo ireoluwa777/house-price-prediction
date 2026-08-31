@@ -163,3 +163,20 @@ The models were compared using MAE, RMSE, and R².
 | Linear Regression | 246758.858954 | 311931.314886 | 0.908640 | 
 | Random Forest | 179801.108164  | 243363.666010 |  0.944390 | 
 | Gradient Boosting |174486.052578 | 232542.913694  |0.949226  |          
+
+## Key Findings
+
+### EDA
+- `Area_sqft` has a strong positive correlation with `Price_USD` (r = 0.87), making it the strongest numerical predictor.
+- Property prices vary considerably by location, with San Francisco showing the highest median prices and Houston the lowest.
+- Property types have similar price distributions, suggesting limited standalone differences between categories.
+- `Distance_to_CityCenter_km` shows almost no linear correlation with price (r = 0.0025).
+- Most other numerical features have weak linear relationships with price.
+- Several high-priced outliers above $5M are present across locations and property types.
+
+### Model Results
+- **Gradient Boosting** achieved the best performance (MAE: ~$174K, RMSE: ~$233K, R²: 0.949).
+- **Random Forest** performed closely behind (MAE: ~$180K, RMSE: ~$243K, R²: 0.944).
+- **Linear Regression** had the weakest performance (MAE: ~$247K, RMSE: ~$312K, R²: 0.909).
+- Ensemble models outperformed Linear Regression, suggesting that non-linear relationships are important for predicting house prices.
+- Gradient Boosting explains approximately **94.9% of the variation** in house prices.
