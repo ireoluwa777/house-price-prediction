@@ -33,3 +33,7 @@ Three regression models are compared:
 - Linear Regression
 - Random Forest Regression
 - Gradient Boosting Regression
+
+The dataset is stored in:
+
+`data/house_prices.csv`
