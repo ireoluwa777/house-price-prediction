@@ -1,0 +1,8 @@
+
+
+```text id="8t50pf"
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
